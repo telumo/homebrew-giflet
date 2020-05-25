@@ -1,9 +1,9 @@
 class Giflet < Formula
   desc "cli gif tool in Rust"
   homepage "https://github.com/telumo/giflet"
-  url "https://github.com/telumo/giflet/releases/download/v0.1.1-alpha/giflet-0.1.1-x86_64-apple-darwin.tar.gz"
-  sha256 "241e576becf5e06b064dac1e61920f37d5a05876623fb87b9f4bf16c9bdab39d"
-  version "0.1.1"
+  url "https://github.com/telumo/giflet/releases/download/v0.1.2-alpha/giflet-0.1.2-x86_64-apple-darwin.tar.gz"
+  sha256 "9ea306076ad26a1b8660c8f5088f7dfe9695c8e8278f7ddb5e58ab9386933964"
+  version "0.1.2"
 
   def install
     bin.install "giflet"
